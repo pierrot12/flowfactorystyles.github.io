@@ -1,6 +1,6 @@
 
 const KPI_TABLE_NAME = 'Table_PortalKPIs';
-const HEADER_LOGO_VIEW_NAME = 'View_Header_Logo';
+const HEADER_LOGO_VIEW_NAME = 'DMA_header';
 const HEADER_TRANSLATOR_VIEW_NAME = 'View_Header_Translator';
 
 $(document).ready(function() {
@@ -25,8 +25,8 @@ render = () => {
 renderHeader = () => {    
 	//$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('header-left');
 	//$('div[name="' + HEADER_TRANSLATOR_VIEW_NAME + '"]').closest('.view').addClass('header-right');
-	//$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
-	//$('.header').insertBefore($('.runtime-content'));
+	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
+	$('.header').insertBefore($('.runtime-content'));
 }
 
 renderKPIs = () => {
