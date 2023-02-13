@@ -67,7 +67,7 @@
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-    /* box-shadow: 2px 2px 4px rgb(0 0 0 / 25%); */
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
     height: 30px;
     max-height: 160px;
     min-height: 50px;
@@ -110,11 +110,12 @@
     font-family: sans-serif;
      min-width: 400px;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+     table-layout:fixed;
 }
 
 .styled-table thead tr {
-    background-color: #009879; 
-    color: #ffffff;
+    background: linear-gradient(90deg, #a3a798 0%, #cfe4fd 100%);
+    color: #000000;
     text-align: left;
 }
 
@@ -147,6 +148,7 @@
     margin-bottom: 5px !important;
     padding-bottom: 3px !important;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15) !important;
+    white-space: pre;
 }
 
 .styled-table-apptitle{
