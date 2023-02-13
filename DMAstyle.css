@@ -2,20 +2,39 @@
 	FF - DMA css file
 */
 
+/*
+    TAB Customization
+*/
+.tab-box-tabs li a {
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
 
+.tab-box-tabs {
+    position:  fixed !important;
+    left:0 !important;
+    top: 10% !important ;
+    width: 7em !important;
+    margin-top: -2.5em !important;
+    z-index: 100 !important;
+}
 
 /*
 	KPI Styles
 */
 .theme-entry.ff .kpis {
 	backdrop-filter: blur(3px);
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+    /* box-shadow: 2px 2px 4px rgb(0 0 0 / 25%); */
     height: 8vw;
     max-height: 160px;
-    min-height: 100px;
+    min-height: 50px;
     min-width: 150px;
     position: relative;
     transition: transform 250ms;
@@ -25,6 +44,7 @@
 
 .theme-entry.ff .kpis span {
 	color: #666666;
+    font-weight: bold;
 }
 
 .theme-entry.ff .kpis-title {
