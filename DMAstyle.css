@@ -18,6 +18,11 @@
     width: 120px !important;
 }
 
+.tab.selected
+{
+    background-color: #ffffff !important;
+}
+
 .tab-box-tabs {
     position:  fixed !important;
     left:0 !important;
