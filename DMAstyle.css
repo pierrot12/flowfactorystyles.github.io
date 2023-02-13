@@ -40,8 +40,9 @@
 .theme-entry.ff .view .panel-header-wrapper
 ,.theme-entry.ff .view-canvas .panel-header-wrapper
 ,.theme-entry.ff .view .grid-header-wrapper
-,.theme-entry.ff .view-canvas .grid-header-wrapper{
-	background: linear-gradient(90deg,#01426A,#71DBD4);
+,.theme-entry.ff .view-canvas .grid-header-wrapper
+,.theme-entry.ff .nav .searchAreaHidden{
+	background: linear-gradient(90deg, #a3a798 0%, #cfe4fd 100%);
 }
 
 
