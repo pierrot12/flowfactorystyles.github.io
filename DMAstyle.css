@@ -41,9 +41,17 @@
 ,.theme-entry.ff .view-canvas .panel-header-wrapper
 ,.theme-entry.ff .view .grid-header-wrapper
 ,.theme-entry.ff .view-canvas .grid-header-wrapper
-,.theme-entry.ff .nav .searchAreaHidden{
+,.theme-entry.ff .nav.searchAreaHidden{
 	background: linear-gradient(90deg, #a3a798 0%, #cfe4fd 100%);
 }
+
+/* Views Border */
+.theme-entry.ff .view>.innerpanel
+,.theme-entry.ff .view-canvas>.innerpanel{
+    border-radius: var(--view-rounding);
+    border: 1px solid lightgrey;	
+}
+
 
 
 /*
