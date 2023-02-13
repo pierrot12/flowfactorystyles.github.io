@@ -4,7 +4,7 @@ const HEADER_LOGO_VIEW_NAME = 'View_Header_Logo';
 const HEADER_TRANSLATOR_VIEW_NAME = 'View_Header_Translator';
 
 $(document).ready(function() {
-   console.log('ready fired');
+    console.log('ready fired');
     enableTheme();
     render();
 });
