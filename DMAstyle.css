@@ -56,14 +56,14 @@
 * Notification counter
 */
 .notification-counter {   
-    position: absolute;
-    top: -2px;
-    left: 12px;
+    position: fixed;
+    top: 200px;
+    left: 120px;
     background-color: rgba(212, 19, 13, 1);
-    color: #fff;
+    color: #fff !important;
     border-radius: 3px;
     padding: 1px 3px;
-    font: 8px Verdana;
+    font: 10px Verdana;
 }
 
 
