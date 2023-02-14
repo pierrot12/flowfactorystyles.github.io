@@ -52,6 +52,19 @@
     border: 1px solid lightgrey;	
 }
 
+/*
+* Notification counter
+*/
+.notification-counter {   
+    position: absolute;
+    top: -2px;
+    left: 12px;
+    background-color: rgba(212, 19, 13, 1);
+    color: #fff;
+    border-radius: 3px;
+    padding: 1px 3px;
+    font: 8px Verdana;
+}
 
 
 /*
