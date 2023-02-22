@@ -51,6 +51,13 @@
     z-index: 100 !important;
 }
 
+/*
+ * to remove the border when a tab is focused
+ */
+.theme-entry .form-tabs.tab-box ul.tab-box-tabs li a.tab.focus .tab-wrapper {
+    border-color: transparent !important;
+}
+
 
 /*
     View headers
