@@ -1,5 +1,5 @@
 
-const HEADER_LOGO_VIEW_NAME = 'GDC_header';
+const HEADER_LOGO_VIEW_NAME = 'DMA_header';
 
 $(document).ready(function() {
     console.log('ready fired');
