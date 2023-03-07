@@ -33,7 +33,15 @@
 ,.theme-entry.ff .view .grid-header-wrapper
 ,.theme-entry.ff .view-canvas .grid-header-wrapper
 ,.theme-entry.ff .nav.searchAreaHidden{
-	background: linear-gradient(90deg, #a3a798 0%, #cfe4fd 100%);
+	/*background: linear-gradient(90deg, #a3a798 0%, #cfe4fd 100%); */
+    background: linear-gradient(90deg, #89182a 0%, #ca5731 50%, #2a3982 100%);
+    
+}
+
+.theme-entry .view .grid-header,.theme-entry .view-canvas .grid-header,.theme-entry .view .panel-header,.theme-entry .view-canvas .panel-heade
+{
+    color: white;
+    font-weight: bold;
 }
 
 /* Views Border */
