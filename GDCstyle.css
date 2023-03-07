@@ -19,6 +19,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Hide Tabs */
+.theme-entry.ff  .tab-box ul.tab-box-tabs.hidetabs{
+	display: none;
+}
 
 /*
     View headers
