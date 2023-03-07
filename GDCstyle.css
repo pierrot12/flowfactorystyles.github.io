@@ -17,6 +17,7 @@
 
 .theme-entry.ff {
     font-family: 'Poppins', sans-serif;
+    background-position: right top !important;
 }
 
 /* Hide Tabs */
