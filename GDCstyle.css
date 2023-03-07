@@ -20,7 +20,7 @@
 }
 
 /* Hide Tabs */
-.theme-entry.ff  .tab-box ul.tab-box-tabs.hidetabs{
+.theme-entry.ff  .tab-box ul.tab-box-tabs{
 	display: none;
 }
 
