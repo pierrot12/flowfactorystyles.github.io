@@ -172,38 +172,10 @@
 }
 
 
-/*
-.row { 
-    width: 49%;
-}
-
-.row:nth-child(1), .row:nth-child(2) { 
-    width: 100%;
-}
-
-.row:nth-child(3) {
-    float:right;   
-    clear:right;
-}
-
-
-*/
-
-.gdc-kpi {
-    background-color: pink;
-    width: 140px;
-    border-radius: 5px;
-    margin-right: 20px;
-    display: inline-block;
-    height: 60px;
-    background-image: http://placehold.it/350x150;
-}
-
-
 .card {
     position: relative;
     display: inline-block;
-    flex-direction: column;
+    flex-direction: column !important;
     min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
