@@ -173,67 +173,131 @@
 
 
 /*
- DMA Table CSS
+.row { 
+    width: 49%;
+}
+
+.row:nth-child(1), .row:nth-child(2) { 
+    width: 100%;
+}
+
+.row:nth-child(3) {
+    float:right;   
+    clear:right;
+}
+
+
 */
 
-.styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-     min-width: 400px;
-     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-     table-layout:fixed;
+.gdc-kpi {
+    background-color: pink;
+    width: 140px;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    height: 60px;
+    background-image: http://placehold.it/350x150;
 }
 
-.styled-table thead tr {
-    background: linear-gradient(90deg, #a3a798 0%, #cfe4fd 100%);
-    color: #000000;
-    text-align: left;
+
+.card {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+    font-size: .875rem;
+    width: 200px;
+    margin-right: 20px;
 }
 
-.styled-table th, .styled-table td {
-    padding: 12px 15px;
-    width: 100px;
+.card-stats .card-header.card-header-icon, .card-stats .card-header.card-header-text {
+    text-align: right;
 }
+
+.card [class*=card-header-] {
+    margin: 0 15px;
+    padding: 0;
+    position: relative;
+}
+.card .card-header {
+    z-index: 3!important;
+}
+.card[class*=bg-], .card[class*=bg-] .card-title, .card[class*=bg-] .card-title a, .card[class*=bg-] .icon i, .card [class*=card-header-], .card [class*=card-header-] .card-title, .card [class*=card-header-] .card-title a, .card [class*=card-header-] .icon i {
+    color: #fff;
+}
+.card .card-header {
+    border-bottom: none;
+    background: transparent;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.card [class*=card-header-] .card-icon, .card [class*=card-header-] .card-text {
+    border-radius: 3px;
+    background-color: #999;
+    padding: 15px;
+    margin-top: -20px;
+    margin-right: 15px;
+    float: left;
+}
+
+
+
+.card.bg-rose, .card .card-header-rose .card-icon, .card .card-header-rose .card-text, .card .card-header-rose:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-rose .back, .card.card-rotate.bg-rose .front {
+    background-color: #ec407a;
+    background-image: url("Icons/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     
-.styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
 }
 
-.styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+.card.bg-blue, .card .card-header-blue .card-icon, .card .card-header-blue .card-text, .card .card-header-blue:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-blue .back, .card.card-rotate.bg-blue .front {
+    background: #26c6da;
+    background-image: url("Icons/users.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+.card.bg-orange, .card .card-header-orange .card-icon, .card .card-header-orange .card-text, .card .card-header-orange:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-orange .back, .card.card-rotate.bg-orange .front {
+    background: #ffa726;
+    background-image: url("Icons/users.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.styled-table tbody tr.active-row {
-    font-weight: bold;
-    color: linear-gradient(90deg, #a3a798 0%, #cfe4fd 100%);
+.card .card-header-info .card-icon, .card .card-header-info .card-text, .card .card-header-info:not(.card-header-icon):not(.card-header-text) {
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(233 30 99 / 40%);
+
 }
 
-.styled-table-app{
-    background: rgba(16, 120, 224, 0.267) !important;
-    vertical-align: top !important;
-    text-align: center !important;
-    margin-bottom: 5px !important;
-    padding-bottom: 3px !important;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15) !important;
-    white-space: pre;
+.card-stats .card-header .card-category:not([class*=text-]) {
+    color: #999;
+    font-size: 14px;
 }
 
-.styled-table-apptitle{
-    color: #009879 !important;
-    font-weight: bold !important;
-    white-space:normal !important;
-    vertical-align: top !important;
+.card-stats .card-header.card-header-icon .card-category, .card-stats .card-header.card-header-icon .card-title, .card-stats .card-header.card-header-text .card-category, .card-stats .card-header.card-header-text .card-title {
+    margin: 0;
 }
 
-.styled-table-appstatus{
-    color: #009879 !important;
-    font-size: 10px !important;
-    white-space:normal !important;
-    vertical-align: top !important;
+.card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
+    color: #3c4858;
+    text-decoration: none;
+}
+
+.card-icon::content
+{
+    
 }
