@@ -17,16 +17,19 @@ enableTheme = () => {
 
 render = () => {
     renderHeader();
-    renderKPIs();
+    renderMenuItems();
 }
 
 renderHeader = () => {    
-	//$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('header-left');
-	//$('div[name="' + HEADER_TRANSLATOR_VIEW_NAME + '"]').closest('.view').addClass('header-right');
 	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
 	$('.header').insertBefore($('.runtime-content'));
 }
 
-renderKPIs = () => {
-    //$('div[name="' + KPI_TABLE_NAME + '"]').closest('.formcontrol').addClass('kpis');
+renderMenuItems = () => {
+    $('a[name^="btn_menu"]').on('click', function (e) {
+        console.log(this.name); 
+        $('a[name^="btn_menu"]').removeClass('ff-menuactive');
+        $('a[name="' + this.name + '"]').addClass('ff-menuactive');
+        
+    });
 }
