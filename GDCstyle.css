@@ -282,3 +282,22 @@
 .ff-menuactive {
     border-bottom: 2px #063a4f solid !important;
 }
+
+
+
+/*****
+    ** Animated wubview
+    */
+.popup.sub-form.animatedintro, .popup.sub-form.animatedexit { 
+    transform: translateX(100%); 
+    opacity: 0.0; 
+} 
+        
+.popup.sub-form { 
+    transform: translateX(0%); 
+    transition: transform 1s ease-out, opacity 1s linear; 
+} 
+
+.popup.sub-form.popup.sub-form.animatedexit { 
+    transition: transform 1s ease-in, opacity 1s linear; 
+}

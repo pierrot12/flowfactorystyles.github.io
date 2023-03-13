@@ -45,6 +45,7 @@ renderMenuItems = () => {
 
 function SCPSAPI$OverridePopupShow() { 
     var _oldshow = SourceCode.Forms.Widget.PopupWindow.show; 
+    console.log("Show popup event");
     SourceCode.Forms.Widget.PopupWindow.show = function () { 
         var result = null; 
         if (SCPSAPI$ShouldAnimatePanel(this)) 
@@ -71,6 +72,7 @@ function SCPSAPI$OverridePopupShow() {
 
 function SCPSAPI$OverridePopupClose() { 
     var _oldclose = SourceCode.Forms.Widget.PopupWindow.close; 
+    console.log("close view fired");
     SourceCode.Forms.Widget.PopupWindow.close = function (options) { 
         if (SCPSAPI$ShouldAnimatePanel(this)) { 
             var _this = this; 
