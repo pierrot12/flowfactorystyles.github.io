@@ -261,8 +261,10 @@
 }
 
 .card-stats .card-header .card-category:not([class*=text-]) {
+    margin-top: 1px;
     color: #999;
     font-size: 14px;
+    margin-top: 5px !important;
 }
 
 .card-stats .card-header.card-header-icon .card-category, .card-stats .card-header.card-header-icon .card-title, .card-stats .card-header.card-header-text .card-category, .card-stats .card-header.card-header-text .card-title {
@@ -272,4 +274,5 @@
 .card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
     color: #3c4858;
     text-decoration: none;
+    font-weight: bold;
 }
