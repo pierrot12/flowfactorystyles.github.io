@@ -262,3 +262,29 @@
     white-space:normal !important;
     vertical-align: top !important;
 }
+
+
+
+/**
+TESTS 
+*/
+
+.btn {
+    background-color: red;
+}
+
+.menu {
+    background-color: Pink;
+    position: absolute;
+    left:-200px;
+    top:0px;
+    height: 100%;
+}
+
+.slide {
+    /* transform: perspective(500px) translate3d(300px, 0, 0px);*/
+    transition-duration: 1000ms;
+    transform: translate3d(200px, 0px, 0px);
+}
+
+
