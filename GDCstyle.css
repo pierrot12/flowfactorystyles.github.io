@@ -172,7 +172,8 @@
 }
 
 .card-container {
-    height: 50px;
+    white-space: normal !important;
+    padding-top: 20px;
 }
 
 .card {
@@ -249,7 +250,7 @@
 
 .card.bg-orange, .card .card-header-orange .card-icon, .card .card-header-orange .card-text, .card .card-header-orange:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-orange .back, .card.card-rotate.bg-orange .front {
     background: #ffa726;
-    background-image: url("Icons/users.svg");
+    background-image: url("Icons/sign.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -271,9 +272,4 @@
 .card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
     color: #3c4858;
     text-decoration: none;
-}
-
-.card-icon::content
-{
-    
 }
