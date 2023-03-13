@@ -171,6 +171,9 @@
     border-top: 3px solid var(--blue);
 }
 
+.card-container {
+    height: 50px;
+}
 
 .card {
     position: relative;
@@ -185,6 +188,7 @@
     font-size: .875rem;
     width: 200px;
     margin-right: 20px;
+    white-space: normal !important;
 }
 
 .card-stats .card-header.card-header-icon, .card-stats .card-header.card-header-text {
