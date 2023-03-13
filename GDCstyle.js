@@ -2,7 +2,7 @@
 const HEADER_LOGO_VIEW_NAME = 'GDC_header';
 
 $(document).ready(function() {
-    console.log('ready fired');
+    console.log('ready fired - v2.0');
     enableTheme();
     render();
     SCPSAPI$OverridePopupShow(); 
