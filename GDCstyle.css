@@ -190,6 +190,8 @@
     width: 200px;
     margin-right: 20px;
     white-space: normal !important;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-stats .card-header.card-header-icon, .card-stats .card-header.card-header-text {
@@ -257,7 +259,6 @@
 
 .card .card-header-info .card-icon, .card .card-header-info .card-text, .card .card-header-info:not(.card-header-icon):not(.card-header-text) {
     box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(233 30 99 / 40%);
-
 }
 
 .card-stats .card-header .card-category:not([class*=text-]) {
