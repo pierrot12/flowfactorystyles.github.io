@@ -203,9 +203,13 @@
     padding: 0;
     position: relative;
 }
+
+/*
 .card .card-header {
-    z-index: 3!important;
+    z-index: 3!important; 
 }
+*/
+
 .card[class*=bg-], .card[class*=bg-] .card-title, .card[class*=bg-] .card-title a, .card[class*=bg-] .icon i, .card [class*=card-header-], .card [class*=card-header-] .card-title, .card [class*=card-header-] .card-title a, .card [class*=card-header-] .icon i {
     color: #fff;
 }
