@@ -39,5 +39,6 @@ renderMenuItems = () => {
         
     });
 
+    $('a[name^="btn_menu"]').addClass('ff-menubutton');
     $('a[name="btn_menu_Home"]').addClass('ff-menuactive');
 }

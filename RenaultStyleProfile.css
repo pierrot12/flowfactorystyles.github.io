@@ -32,3 +32,9 @@
 .ff-menuactive {
     border-bottom: 3px #063a4f solid !important;
 }
+
+.ff-menubutton {
+    background: transparent !important;
+    color: black !important;
+    border: none;
+}
