@@ -41,4 +41,28 @@ renderMenuItems = () => {
 
     $('a[name^="btn_menu"]').addClass('ff-menubutton');
     $('a[name="btn_menu_Home"]').addClass('ff-menuactive');
+
+    $('.menu1').click(function(){
+        $('[name=Pic_NPP]').click(); 
+    });
+
+    $('.menu2').click(function(){
+        $('[name=Pic_NPP_2]').click(); 
+    });
+
+    $('.menu3').click(function(){
+        $('[name=Pic_TO]').click(); 
+    });
+
+    $('.menu4').click(function(){
+        $('[name=Pic_APU]').click(); 
+    });
+
+    $('.menu5').click(function(){
+        $('[name=Pic_PC]').click(); 
+    });
+
+    $('.menu6').click(function(){
+        $('[name=Pic_PO]').click(); 
+    });
 }
