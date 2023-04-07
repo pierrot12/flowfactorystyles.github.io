@@ -94,7 +94,7 @@
  }
  
  #menu-flottant li:hover span {
-    background-color: #d8c4a0;
+    background-color: #e1e1e1; /* d8c4a0 */
  }
  
  #menu-flottant li.active span {
