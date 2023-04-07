@@ -46,8 +46,8 @@
  */
  #menu-flottant {
     position: fixed;
-    top: 200px;
-    right: 0px !important;
+    top: 155px;
+    right: -1px !important;
     width: 50px;
     background-color: #000;
     border: 1px solid #ccc;
