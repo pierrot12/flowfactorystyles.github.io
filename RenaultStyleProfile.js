@@ -49,30 +49,32 @@ renderFFMenu = () => {
         console.log('CLICK ON MENU ITEM ');
         var elementid = this.id;
 
+        if(elementid = "ffmenu1") {
+            $('[name=Pic_NPP]').click(); 
+        }
+
+        if(elementid = "ffmenu2") {
+            $('[name=Pic_NPP_2]').click(); 
+        }
+
+        if(elementid = "ffmenu3") {
+            $('[name=Pic_TO]').click(); 
+        }
+
+        if(elementid = "ffmenu4") {
+            $('[name=Pic_APU]').click(); 
+        }
+
+        if(elementid = "ffmenu5") {
+            $('[name=Pic_PC]').click();
+        }
+
+        if(elementid = "ffmenu6") {
+            $('[name=Pic_PO]').click(); 
+        }
+
     });
 
     console.log("activation des ffmenus RSI - V2 - " + $('span[class^="ffmenu"]').length + " elements found.");
-    /*$('.menu1').click(function(){
-        $('[name=Pic_NPP]').click(); 
-    });
-
-    $('.menu2').click(function(){
-        $('[name=Pic_NPP_2]').click(); 
-    });
-
-    $('.menu3').click(function(){
-        $('[name=Pic_TO]').click(); 
-    });
-
-    $('.menu4').click(function(){
-        $('[name=Pic_APU]').click(); 
-    });
-
-    $('.menu5').click(function(){
-        $('[name=Pic_PC]').click(); 
-    });
-
-    $('.menu6').click(function(){
-        $('[name=Pic_PO]').click(); 
-    });*/
+    
 }
