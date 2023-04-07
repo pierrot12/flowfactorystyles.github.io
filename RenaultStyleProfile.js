@@ -46,8 +46,10 @@ renderMenuItems = () => {
 
 renderFFMenu = () => {
     $('span[class^="ffmenu"]').on('click', function(e) {
-        console.log('CLICK ON MENU ITEM ');
         var elementid = this.id;
+
+        console.log('CLICK ON MENU ITEM => ' + elementid);
+        
 
         if(elementid = "ffmenu1") {
             $('[name=Pic_NPP]').click(); 
