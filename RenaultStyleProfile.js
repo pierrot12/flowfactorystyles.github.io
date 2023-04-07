@@ -50,28 +50,27 @@ renderFFMenu = () => {
 
         console.log('CLICK ON MENU ITEM => ' + elementid);
         
-
-        if(elementid = "ffmenu1") {
+        if(elementid == "ffmenu1") {
             $('[name=Pic_NPP]').click(); 
         }
 
-        if(elementid = "ffmenu2") {
+        if(elementid == "ffmenu2") {
             $('[name=Pic_NPP_2]').click(); 
         }
 
-        if(elementid = "ffmenu3") {
+        if(elementid == "ffmenu3") {
             $('[name=Pic_TO]').click(); 
         }
 
-        if(elementid = "ffmenu4") {
+        if(elementid == "ffmenu4") {
             $('[name=Pic_APU]').click(); 
         }
 
-        if(elementid = "ffmenu5") {
+        if(elementid == "ffmenu5") {
             $('[name=Pic_PC]').click();
         }
 
-        if(elementid = "ffmenu6") {
+        if(elementid == "ffmenu6") {
             $('[name=Pic_PO]').click(); 
         }
 
