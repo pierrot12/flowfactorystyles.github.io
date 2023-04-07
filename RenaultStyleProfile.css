@@ -44,6 +44,7 @@
     background: transparent !important;
     color: black !important;
     border: none;
+    font-family: 'RenaultGroup-Bold', sans-serif !important;
 }
 
 
@@ -96,3 +97,9 @@
  #menu-flottant li.active span {
     background-color: #e1e1e1;
  }
+
+ .icone1 {
+    background-image: url("Icons/NPP.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
