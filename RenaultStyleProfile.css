@@ -47,11 +47,12 @@
  #menu-flottant {
     position: fixed;
     top: 200px;
-    right: -1;
+    right: -1 !important;
     width: 50px;
     background-color: #000;
     border: 1px solid #ccc;
     z-index: 9999;
+    white-space: normal !important;
  }
  
  #menu-flottant ul {
