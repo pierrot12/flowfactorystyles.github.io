@@ -44,9 +44,11 @@ renderMenuItems = () => {
 
     $('span[class^="menu"]').on('click', function(e) {
         console.log('CLICK ON MENU ITEM ');
+        var elementid = this.id;
+
     });
 
-    console.log("activation des menus RSI");
+    console.log("activation des menus RSI - V2");
     $('.menu1').click(function(){
         $('[name=Pic_NPP]').click(); 
     });
