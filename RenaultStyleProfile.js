@@ -8,7 +8,7 @@
 const HEADER_LOGO_VIEW_NAME = 'SW_header';
 
 $(document).ready(function() {
-    console.log('ready fired - v2.0');
+    console.log('ready fired - v3.0');
     enableTheme();
     render();
 });
