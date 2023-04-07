@@ -38,3 +38,53 @@
     color: black !important;
     border: none;
 }
+
+
+
+/**
+ * SECTION POUBELLE
+ */
+ #menu-flottant {
+    position: fixed;
+    top: 200px;
+    right: -1;
+    width: 50px;
+    background-color: #000;
+    border: 1px solid #ccc;
+    z-index: 9999;
+ }
+ 
+ #menu-flottant ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #menu-flottant li {
+    margin-bottom: 0px;
+ }
+ 
+ #menu-flottant a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+ }
+ 
+ #menu-flottant i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: #000;
+ }
+ 
+ #menu-flottant li:hover a {
+    background-color: #f9f9f9;
+ }
+ 
+ #menu-flottant li.active a {
+    background-color: #e1e1e1;
+ }
