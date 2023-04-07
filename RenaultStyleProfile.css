@@ -3,9 +3,16 @@
  * Powered By Flow Factory
  * Custom CSS
  */
+ 
+ @font-face {
+    font-family: "RenaultGroup-Bold";
+    src: url("Fonts/RenaultGroup-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+ }
 
  .theme-entry.ff {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'RenaultGroup-Bold', sans-serif;
     background-position: right top !important;
 }
 
