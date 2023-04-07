@@ -48,7 +48,7 @@ renderMenuItems = () => {
 
     });
 
-    console.log("activation des menus RSI - V2");
+    console.log("activation des menus RSI - V2 - " + $('span[class^="menu"]').length + " elements found.");
     $('.menu1').click(function(){
         $('[name=Pic_NPP]').click(); 
     });
