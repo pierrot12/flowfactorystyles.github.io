@@ -41,9 +41,11 @@ renderMenuItems = () => {
 
     $('a[name^="btn_menu"]').addClass('ff-menubutton');
     $('a[name="btn_menu_Home"]').addClass('ff-menuactive');
-}
 
-renderRSIMenu = () => {
+    $('span[name^="menu"]').on('click', function(e) {
+        console.log('CLICK ON MENU ITEM ');
+    });
+
     console.log("activation des menus RSI");
     $('.menu1').click(function(){
         $('[name=Pic_NPP]').click(); 
