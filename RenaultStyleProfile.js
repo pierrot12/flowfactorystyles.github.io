@@ -42,14 +42,17 @@ renderMenuItems = () => {
     $('a[name^="btn_menu"]').addClass('ff-menubutton');
     $('a[name="btn_menu_Home"]').addClass('ff-menuactive');
 
-    $('span[class^="menu"]').on('click', function(e) {
+}
+
+renderFFMenu = () => {
+    $('span[class^="ffmenu"]').on('click', function(e) {
         console.log('CLICK ON MENU ITEM ');
         var elementid = this.id;
 
     });
 
-    console.log("activation des menus RSI - V2 - " + $('span[class^="menu"]').length + " elements found.");
-    $('.menu1').click(function(){
+    console.log("activation des ffmenus RSI - V2 - " + $('span[class^="ffmenu"]').length + " elements found.");
+    /*$('.menu1').click(function(){
         $('[name=Pic_NPP]').click(); 
     });
 
@@ -71,5 +74,5 @@ renderMenuItems = () => {
 
     $('.menu6').click(function(){
         $('[name=Pic_PO]').click(); 
-    });
+    });*/
 }
