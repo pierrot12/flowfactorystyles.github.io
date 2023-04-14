@@ -24,11 +24,17 @@ enableTheme = () => {
 render = () => {
     renderHeader();
     renderMenuItems();
+    renderParafeurHP();
 }
 
 renderHeader = () => {    
 	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
 	$('.header').insertBefore($('.runtime-content'));
+}
+
+renderParafeurHP = () => {
+    $("#00000000-0000-0000-0000-000000000000_353a82f6-f05b-9c37-c869-e99967a5c334_internal .view:first-child").css("width", "25%");
+  $ ("#00000000-0000-0000-0000-000000000000_353a82f6-f05b-9c37-c869-e99967a5c334_internal .view:last-child").css("width", "75%");
 }
 
 renderMenuItems = () => {
