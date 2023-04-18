@@ -39,6 +39,7 @@
 ,.theme-entry.ff .view-canvas .grid-header-wrapper
 ,.theme-entry.ff .nav.searchAreaHidden{
     background: linear-gradient(90deg,#01426A,#f3f3f3);
+    color:#ffffff;
 }
 
 /* Views Border */
