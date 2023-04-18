@@ -4,6 +4,12 @@
  * Custom CSS
  */
 
+ /* Variables */
+.theme-entry.ff{
+	--view-rounding: 5px;
+	--button-rounding: 5px;
+	--main-text-size: 1.4rem;	
+}
 
 
 /*
@@ -33,6 +39,13 @@
 ,.theme-entry.ff .view-canvas .grid-header-wrapper
 ,.theme-entry.ff .nav.searchAreaHidden{
     background: linear-gradient(90deg,#01426A,#f3f3f3);
+}
+
+/* Views Border */
+.theme-entry.amo .view>.innerpanel
+,.theme-entry.amo .view-canvas>.innerpanel{
+	border-radius: var(--view-rounding);
+	border: 1px solid lightgrey;	
 }
 
 
