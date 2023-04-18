@@ -43,8 +43,8 @@
 }
 
 /* Views Border */
-.theme-entry.amo .view>.innerpanel
-,.theme-entry.amo .view-canvas>.innerpanel{
+.theme-entry.ff .view>.innerpanel
+,.theme-entry.ff .view-canvas>.innerpanel{
 	border-radius: var(--view-rounding);
 	border: 1px solid lightgrey;	
 }
