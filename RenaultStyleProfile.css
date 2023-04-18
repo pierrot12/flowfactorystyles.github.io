@@ -37,4 +37,6 @@
     background: transparent !important;
     color: black !important;
     border: none;
+    font-size: 1.8rem ;
+    font-weight: bold;
 }
