@@ -1,0 +1,23 @@
+/*
+ * Custom style profile 
+ * Powered By Flow Factory
+ * Custom CSS
+ */
+
+
+
+/*
+ * Menu styling
+ */
+
+.ff-menuactive {
+    border-bottom: 3px #063a4f solid !important;
+}
+
+.ff-menubutton {
+    background: transparent !important;
+    color: black !important;
+    border: none;
+    font-family: 'RenaultGroup-Bold', sans-serif !important;
+    font-size: 18px !important;
+}
