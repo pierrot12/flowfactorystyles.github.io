@@ -40,3 +40,18 @@
 .popup.sub-form.popup.sub-form.animatedexit { 
     transition: transform 1s ease-in, opacity 1s linear; 
 }
+
+
+.popup.sub-view.animatedintro, .popup.sub-view.animatedexit { 
+    transform: translateX(100%); 
+    opacity: 0.0; 
+} 
+        
+.popup.sub-view { 
+    transform: translateX(0%); 
+    transition: transform 1s ease-out, opacity 1s linear; 
+} 
+
+.popup.sub-view.popup.sub-view.animatedexit { 
+    transition: transform 1s ease-in, opacity 1s linear; 
+}

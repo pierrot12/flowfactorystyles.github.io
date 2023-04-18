@@ -81,6 +81,7 @@ function SCPSAPI$OverridePopupClose() {
     console.log("close view fired");
     SourceCode.Forms.Widget.PopupWindow.close = function (options) { 
         if (SCPSAPI$ShouldAnimatePanel(this)) { 
+            console.log("test");
             var _this = this; 
             function transitionEnd() { 
                 console.log("transitionend"); 
