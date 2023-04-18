@@ -4,11 +4,10 @@
  *
  */
 
-
-const HEADER_LOGO_VIEW_NAME = 'SW_header';
+const HEADER_LOGO_VIEW_NAME = 'AppHeader';
 
 $(document).ready(function() {
-    console.log('ready fired - v3.0');
+    console.log('LOG - ready fired v3.0');
     enableTheme();
     render();
 });
