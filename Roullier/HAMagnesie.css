@@ -23,9 +23,21 @@
 }
 
 
+/*
+    View headers
+*/
+/* Views Header - Gradient Color */
+.theme-entry.ff .view .panel-header-wrapper
+,.theme-entry.ff .view-canvas .panel-header-wrapper
+,.theme-entry.ff .view .grid-header-wrapper
+,.theme-entry.ff .view-canvas .grid-header-wrapper
+,.theme-entry.ff .nav.searchAreaHidden{
+    background: linear-gradient(90deg,#01426A,#f3f3f3);
+}
+
 
 /*****
- * Animated wubview
+ * Animated subview
  */
 .popup.sub-form.animatedintro, .popup.sub-form.animatedexit { 
     transform: translateX(100%); 
