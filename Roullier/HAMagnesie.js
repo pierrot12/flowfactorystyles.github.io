@@ -7,7 +7,7 @@
 const HEADER_LOGO_VIEW_NAME = 'AppHeader';
 
 $(document).ready(function() {
-    console.log('LOG - ready fired v3.0');
+    console.log('LOG - ready fired v1.0');
     enableTheme();
     render();
     SCPSAPI$OverridePopupShow(); 
