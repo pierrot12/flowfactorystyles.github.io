@@ -41,10 +41,7 @@
     color:#ffffff;
 }
 
-.theme-entry.ff .worklistToolbarHeaderTextWrapper {
-    background: linear-gradient(90deg,#01426A,#f3f3f3);
-    color:#ffffff;
-}
+
 
 /* Views Border */
 .theme-entry.ff .view>.innerpanel
@@ -53,6 +50,17 @@
 	border: 1px solid lightgrey;	
 }
 
+/* Worklist header background */
+.theme-entry.ff .worklistToolbarHeaderTextWrapper {
+    background: linear-gradient(90deg,#01426A,#f3f3f3);
+    color:#ffffff;
+}
+
+/* Worklist buttons background */
+.theme-entry.ff .worklist-btn
+{
+    background:transparent;
+}
 
 /*****
  * Animated subview
