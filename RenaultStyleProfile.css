@@ -3,9 +3,16 @@
  * Powered By Flow Factory
  * Custom CSS
  */
+ 
+ @font-face {
+    font-family: "RenaultGroup-Bold";
+    src: url("Fonts/RenaultGroup-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+ }
 
  .theme-entry.ff {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'RenaultGroup-Bold', sans-serif;
     background-position: right top !important;
 }
 
@@ -37,6 +44,106 @@
     background: transparent !important;
     color: black !important;
     border: none;
+<<<<<<< HEAD
     font-size: 1.8rem ;
     font-weight: bold;
+=======
+    font-family: 'RenaultGroup-Bold', sans-serif !important;
+    font-size: 18px !important;
+}
+
+
+
+/**
+ * SECTION POUBELLE
+ */
+ #menu-flottant {
+    position: fixed;
+    top: 155px;
+    right: 2px !important;
+    width: 50px;
+    background-color: #978B7F;
+    border: 1px solid #ccc;
+    z-index: 9999;
+    white-space: normal !important;
+    border-radius: 25px;
+ }
+ 
+ #menu-flottant ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #menu-flottant li {
+    margin-bottom: 0px;
+ }
+ 
+ #menu-flottant span {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+ }
+ 
+ #menu-flottant i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: #000;
+ }
+ 
+ #menu-flottant li:hover span {
+    background-color: #e1e1e1; /* d8c4a0 */
+ }
+ 
+ #menu-flottant li.active span {
+    background-color: #e1e1e1;
+ }
+
+ .ffmenu1 {
+    background-image: url("Icons/NPP.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+}
+
+.ffmenu2 {
+    background-image: url("Icons/NPP.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+}
+
+.ffmenu3 {
+    background-image: url("Icons/TO.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+}
+
+.ffmenu4 {
+    background-image: url("Icons/APU.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+}
+
+.ffmenu5 {
+    background-image: url("Icons/PC.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+}
+
+.ffmenu6 {
+    background-image: url("Icons/PO.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
+>>>>>>> 0e4211b04356f453af942a2d4703e45d9e09e0b2
 }
