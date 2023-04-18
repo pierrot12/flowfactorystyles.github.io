@@ -90,14 +90,16 @@ function SCPSAPI$OverridePopupClose() {
                     _this.controls.main.removeClass("animatedexit animatedintro"); 
                 }, 300
                 ); 
-                /*annoyingly, this is a magic number, the same as the transition length in our custom css*/ } 
+                /*annoyingly, this is a magic number, the same as the transition length in our custom css*/ 
+            } 
                 
                 this.controls.main.on("transitionend", transitionEnd); 
                 this.controls.main.addClass("animatedexit"); 
         } else { 
             result = _oldclose.call(this, options);
         } 
-    }; 
+    };
+    console.log("End close view fired"); 
 } 
 
 function SCPSAPI$ShouldAnimatePanel(jqPopup) { 
