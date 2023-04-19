@@ -53,7 +53,7 @@ renderFavicon = () => {
         link.rel = 'icon';
         document.getElementsByTagName('head')[0].appendChild(link);
     }
-    link.href = 'icons/favicon-32x32.png';
+    link.href = 'https://pierrot12.github.io/flowfactorystyles.github.io/Roullier/icons/favicon-32x32.png';
 }
 
 
