@@ -54,6 +54,7 @@
 .theme-entry.ff .worklistToolbarHeaderTextWrapper {
     background: linear-gradient(90deg,#01426A,#f3f3f3);
     color:#ffffff;
+    font-size: 1.4 rem;
 }
 
 /* Worklist buttons background */
