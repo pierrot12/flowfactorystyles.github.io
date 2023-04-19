@@ -26,6 +26,7 @@ enableTheme = () => {
 render = () => {
     renderHeader();
     renderMenuItems();
+    renderFavicon();
 }
 
 renderHeader = () => {    
@@ -43,6 +44,16 @@ renderMenuItems = () => {
 
     $('a[name^="btn_menu"]').addClass('ff-menubutton');
     $('a[name="btn_menu_Home"]').addClass('ff-menuactive');
+}
+
+renderFavicon = () => {
+    var link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+    link.href = 'icons/favicon-32x32.png';
 }
 
 
