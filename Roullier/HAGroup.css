@@ -1,0 +1,116 @@
+/*
+	AMO CONSULTANCY - Custom Theme - 02/2023
+*/
+
+/* Variables */
+.theme-entry.amo{
+    --view-rounding: 5px;
+	--button-rounding: 5px;
+	--main-text-size: 1.4rem;
+}
+
+/* Views Header */
+.theme-entry.amo .row.header{	
+	border-bottom: 2px solid lightgrey;
+	background-color: white;
+}
+.theme-entry.amo .row.header .view.header-left{	
+	width: 80% !important;
+	margin: 0px !important;
+}
+.theme-entry.amo .row.header .view.header-right{	
+	width: 17% !important;
+	margin-top: 20px !important;
+}
+.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:hover {
+    color: #71DBD4;
+}
+.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button {
+    color: #01426A;
+    width: 200px;
+    font-size: initial;
+    text-transform: uppercase;
+    border: none;
+    background-color: white;
+    border-right: 3px solid #01426A;
+    border-radius: 0px;
+    font-weight: 600;
+}
+.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:last-child {
+    border: none;
+}
+.theme-entry.amo .row.header .view>.innerpanel, .theme-entry.amo .row.header .view-canvas>.innerpanel {
+    border: none;
+}
+
+/* Hide Tabs */
+.theme-entry.amo  .tab-box ul.tab-box-tabs.hidetabs{
+	display: none;
+}
+
+/* Views Header - Gradient Color */
+ .theme-entry.amo .view .panel-header-wrapper
+,.theme-entry.amo .view-canvas .panel-header-wrapper
+,.theme-entry.amo .view .grid-header-wrapper
+,.theme-entry.amo .view-canvas .grid-header-wrapper{
+	background: linear-gradient(90deg,#01426A,#71DBD4);
+}
+
+/* Views Border */
+ .theme-entry.amo .view>.innerpanel
+,.theme-entry.amo .view-canvas>.innerpanel{
+    border-radius: var(--view-rounding);
+    border: 1px solid lightgrey;	
+}
+
+/* Datalabels KPIs Borders */
+.theme-entry.amo .kpis h3{	
+    padding: 13px;
+    color: #71DBD4;
+    text-shadow: 1px 1px 1px lightskyblue;
+    -moz-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+    margin-top: 12px;
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+    -moz-box-shadow: 0px 0px 6px 8px rgba(211,211,211,1);
+    box-shadow: 0px 0px 10px 3px rgb(211 211 211);
+    margin: 12px;
+    width: 80%;
+	background-color: white;
+	height: 70px;
+}
+
+
+
+/*****
+ * Animated subview
+ */
+ .popup.sub-form.animatedintro, .popup.sub-form.animatedexit { 
+    transform: translateX(100%); 
+    opacity: 0.0; 
+} 
+        
+.popup.sub-form { 
+    transform: translateX(0%); 
+    transition: transform 1s ease-out, opacity 1s linear; 
+} 
+
+.popup.sub-form.popup.sub-form.animatedexit { 
+    transition: transform 1s ease-in, opacity 1s linear; 
+}
+
+
+.popup.sub-view.animatedintro, .popup.sub-view.animatedexit { 
+    transform: translateX(100%); 
+    opacity: 0.0; 
+} 
+        
+.popup.sub-view { 
+    transform: translateX(0%); 
+    transition: transform 1s ease-out, opacity 1s linear; 
+} 
+
+.popup.sub-view.popup.sub-view.animatedexit { 
+    transition: transform 1s ease-in, opacity 1s linear; 
+}
