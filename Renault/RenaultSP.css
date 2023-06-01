@@ -33,6 +33,6 @@
 }
 
 /* border: 1px #fc3 solid; */
-.theme-entry.ff .tab .selected {
+.tab.selected {
     border: 1px #fc3 solid;
 }
