@@ -31,3 +31,8 @@
 .theme-entry.ff .worklistToolbarHeaderTextWrapper {
     background: linear-gradient(90deg,#fc3,#fc3);
 }
+
+/* border: 1px #fc3 solid; */
+.theme-entry.ff .tab .selected {
+    border: 1px #fc3 solid;
+}
