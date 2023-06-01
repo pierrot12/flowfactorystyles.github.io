@@ -22,3 +22,7 @@
 ,.theme-entry.ff .view-canvas .grid-header-wrapper{
 	background: linear-gradient(90deg,#fc3,#fc3);
 }
+
+.tab .selected .focus {
+    border: 0px solid;
+}
