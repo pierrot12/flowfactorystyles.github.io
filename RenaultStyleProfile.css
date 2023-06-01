@@ -44,10 +44,6 @@
     background: transparent !important;
     color: black !important;
     border: none;
-<<<<<<< HEAD
-    font-size: 1.8rem ;
-    font-weight: bold;
-=======
     font-family: 'RenaultGroup-Bold', sans-serif !important;
     font-size: 18px !important;
 }
@@ -145,5 +141,4 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 35px;
->>>>>>> 0e4211b04356f453af942a2d4703e45d9e09e0b2
 }

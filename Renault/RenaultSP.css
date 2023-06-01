@@ -1,0 +1,24 @@
+/*
+ * Custom style profile 
+ * Powered By Flow Factory
+ * Custom CSS
+ */
+
+ @font-face {
+    font-family: "RenaultGroup-Bold";
+    src: url("Fonts/RenaultGroup-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+ }
+
+.theme-entry.ff {
+    font-family: 'RenaultGroup-Bold', sans-serif;
+}
+
+/* Views Header - Gradient Color */
+.theme-entry.ff .view .panel-header-wrapper
+,.theme-entry.ff .view-canvas .panel-header-wrapper
+,.theme-entry.ff .view .grid-header-wrapper
+,.theme-entry.ff .view-canvas .grid-header-wrapper{
+	background: linear-gradient(90deg,#fc3,#fc3);
+}
