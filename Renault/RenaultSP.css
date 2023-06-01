@@ -23,6 +23,6 @@
 	background: linear-gradient(90deg,#fc3,#fc3);
 }
 
-.tab .selected .focus {
-    border: 0px solid;
+.theme-entry .form-tabs.tab-box ul.tab-box-tabs li a.tab.focus .tab-wrapper {
+    border-color: transparent !important;
 }
