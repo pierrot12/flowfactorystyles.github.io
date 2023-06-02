@@ -8,7 +8,7 @@
 const HEADER_LOGO_VIEW_NAME = 'AppHeader';
 
 $(document).ready(function() {
-    console.log('ready fired - Renault SP theme used - V1.2');
+    console.log('ready fired - Renault SP theme used - V1.3');
     enableTheme();
     render();
 });
