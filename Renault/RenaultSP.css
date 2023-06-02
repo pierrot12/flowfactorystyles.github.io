@@ -27,6 +27,13 @@
     border-color: transparent !important;
 }
 
+/* Views Border */
+.theme-entry.ff .view>.innerpanel
+,.theme-entry.ff .view-canvas>.innerpanel{
+    border-radius: var(--view-rounding);
+    border: 1px solid lightgrey;	
+}
+
 /* Worklist header */
 .theme-entry.ff .worklistToolbarHeaderTextWrapper {
     background: linear-gradient(90deg,#fc3,#fc3);
