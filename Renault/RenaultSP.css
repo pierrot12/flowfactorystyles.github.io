@@ -39,6 +39,10 @@
     background: linear-gradient(90deg,#fc3,#fc3);
 }
 
+.theme-entry .SourceCodeFormsControlsWorklist .nav {
+    background-color: #fc3;
+}
+
 /* border: 1px #fc3 solid; */
 .tab.selected {
     border-top: 1px #716f6f solid !important;
