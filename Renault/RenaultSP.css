@@ -41,7 +41,7 @@
 
 /* border: 1px #fc3 solid; */
 .tab.selected {
-    border-top: 1px #c4c4c4 solid !important;
-    border-right: 1px #c4c4c4 solid !important;
-    border-left: 1px #c4c4c4 solid !important;
+    border-top: 1px #716f6f solid !important;
+    border-right: 1px #716f6f solid !important;
+    border-left: 1px #716f6f solid !important;
 }
