@@ -1,64 +1,8 @@
+
 /*
- * Custom style profile 
+ * Custom pop-up show and hide animations
  * Powered By Flow Factory
- *
  */
-
-const HEADER_LOGO_VIEW_NAME = 'AppHeader';
-
-$(document).ready(function() {
-    console.log('LOG - ready fired v1.1');
-    enableTheme();
-    render();
-    SCPSAPI$OverridePopupShow(); 
-    SCPSAPI$OverridePopupClose(); 
-    $.widget("ui.popupwindow", SourceCode.Forms.Widget.PopupWindow); 
-});
-
-enableTheme = () => {
-    console.log('LOG - enable theme log');
-    $('body').addClass('ff');
-    $('form').addClass('ff');
-    $('.runtime-content').addClass('ff');
-    $('.runtime-form').addClass('ff');
-}
-
-render = () => {
-    renderHeader();
-    renderMenuItems();
-    renderFavicon();
-}
-
-renderHeader = () => {    
-	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
-	$('.header').insertBefore($('.runtime-content'));
-}
-
-renderMenuItems = () => {
-    $('a[name^="btn_menu"]').on('click', function (e) {
-        console.log(this.name); 
-        $('a[name^="btn_menu"]').removeClass('ff-menuactive');
-        $('a[name="' + this.name + '"]').addClass('ff-menuactive');
-        
-    });
-
-    $('a[name^="btn_menu"]').addClass('ff-menubutton');
-    $('a[name="btn_menu_Home"]').addClass('ff-menuactive');
-}
-
-renderFavicon = () => {
-    var link = document.querySelector("link[rel~='icon']");
-    if (!link) {
-        link = document.createElement('link');
-        link.rel = 'icon';
-        document.getElementsByTagName('head')[0].appendChild(link);
-    }
-    link.href = 'https://pierrot12.github.io/flowfactorystyles.github.io/Roullier/icons/favicon-32x32.png';
-}
-
-
-
-/*Animated Panel Intro*/ 
 
 function SCPSAPI$OverridePopupShow() { 
     var _oldshow = SourceCode.Forms.Widget.PopupWindow.show; 
