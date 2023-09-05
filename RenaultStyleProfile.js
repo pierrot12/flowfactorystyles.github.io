@@ -30,7 +30,6 @@ render = () => {
 
 renderHeader = () => {    
     $('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
-    //$('div[name="' + HEADER_BUTTONS_VIEW_NAME + '"]').closest('.row').addClass('header');
 	$('.header').insertBefore($('.runtime-content'));
 }
 

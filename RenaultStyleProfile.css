@@ -142,3 +142,14 @@
     background-position: center;
     background-size: 35px;
 }
+
+
+#SW_buttons {
+    position: fixed;  /* Position fixée par rapport à la fenêtre du navigateur */
+    top: 0;           /* Collé au haut de la fenêtre */
+    left: 0;          /* Collé à la gauche de la fenêtre */
+    width: 200px;     /* Largeur fixe de 200px */
+    height: 100vh;    /* Hauteur de 100% de la fenêtre */
+    background-color: #333;  /* Couleur de fond pour le voir plus facilement */
+    overflow-y: auto;  /* Barre de défilement si le contenu dépasse la hauteur */
+  }
