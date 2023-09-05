@@ -30,7 +30,7 @@ render = () => {
 
 renderHeader = () => {    
     $('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
-	$('.header').insertBefore($('.runtime-content'));
+	//$('.header').insertBefore($('.runtime-content'));
 
     // Trouver la première div par son nom
     const div = document.getElementsByName("SW_buttons")[0];
@@ -39,9 +39,9 @@ renderHeader = () => {
     div.style.position = "fixed";
     div.style.top = "0px";
     div.style.left = "0px";
-    div.style.width = "200px";
+    div.style.width = "150px";
     div.style.height = "100vh";
-    div.style.backgroundColor = "#333";
+    //div.style.backgroundColor = "#333";
     div.style.overflowY = "auto";
 }
 
