@@ -16,6 +16,10 @@
     background-position: right top !important;
 }
 
+/* Hide Tabs */
+.theme-entry.ff  .tab-box ul.tab-box-tabs{
+	display: none;
+}
 
 /*
 * Notification counter

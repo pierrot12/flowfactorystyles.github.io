@@ -30,7 +30,7 @@ render = () => {
 
 renderHeader = () => {    
     $('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
-	//$('.header').insertBefore($('.runtime-content'));
+	$('.header').insertBefore($('.runtime-content'));
 
     // Trouver la première div par son nom
     const div = document.getElementsByName("SW_buttons")[0];
