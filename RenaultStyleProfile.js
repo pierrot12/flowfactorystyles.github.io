@@ -9,7 +9,7 @@ const HEADER_LOGO_VIEW_NAME = 'SW_header';
 const HEADER_BUTTONS_VIEW_NAME = 'SW_buttons';
 
 $(document).ready(function() {
-    console.log('ready fired - v3.1');
+    console.log('ready fired - v3.2');
     enableTheme();
     render();
 });
@@ -29,14 +29,9 @@ render = () => {
 }
 
 renderHeader = () => {    
-	/*$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
-    $('div[name="' + HEADER_BUTTONS_VIEW_NAME + '"]').closest('.row').addClass('header');
+    $('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
+    //$('div[name="' + HEADER_BUTTONS_VIEW_NAME + '"]').closest('.row').addClass('header');
 	$('.header').insertBefore($('.runtime-content'));
-    */
-
-    $('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').insertBefore($('.runtime-content'));
-    $('div[name="' + HEADER_BUTTONS_VIEW_NAME + '"]').insertBefore($('.runtime-content'));
-   
 }
 
 renderParafeurHP = () => {
