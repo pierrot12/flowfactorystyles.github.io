@@ -319,3 +319,11 @@
 .popup.sub-view.popup.sub-view.animatedexit { 
     transition: transform 1s ease-in, opacity 1s linear; 
 }
+
+
+
+@media (prefers-color-scheme: dark) {
+    html {
+        filter: invert(100%);
+    }
+}
