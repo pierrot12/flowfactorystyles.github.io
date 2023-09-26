@@ -1,0 +1,58 @@
+:root {
+	--PopupSliderWidth: 50 rem;
+	--PopupSliderRight: -50 rem;
+	--PopupSliderTransform: translate(-50 rem, 0);
+	--SliderTop: 0 px;
+	--PopupTop: 0 px;
+}
+
+.slideout {
+	height: 100%;
+	position: fixed!important;
+	transition: all 0.6 s;
+	border-left: 1 px solid #CCC;
+	top: var (--SliderTop) !important;
+}
+
+.slideout.show {
+	overflow: auto!important;
+	box-shadow: 1px 3px 10px rgba(32, 33, 36, 0.28);
+}
+
+.slideout.view {
+	height: 100%;
+	margin: 0!important;
+}
+
+.slideout__form, .slideout.innerpanel, .slideout[data - areaitemid], .slideout.panel-body, .slideout.panel-body m, 
+.slideout.panel-body-m-c, .slideout.panel-body-wrapper > div:nth-of-type(1) {
+	min-height: 100%;
+	overflow: auto!important;
+}
+
+.slideout[name = Table] {
+	height: 100%;
+}
+
+.nav-page {
+	overflow-y: auto;
+}
+
+.slideout {
+	z-index: 1;
+}
+
+.slideout.show[name = 'Save Button'] {
+	position: fixed;
+	bottom: 10 px;
+	right: 10 px;
+}
+
+.id-picker-menu {
+	z-index: 99999;
+}
+
+.slideout__form.grid {
+	margin: 20 px;
+	width: calc(100% -40 px) !important;
+}
