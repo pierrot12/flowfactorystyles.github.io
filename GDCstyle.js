@@ -97,7 +97,7 @@ function SCPSAPI$OverridePopupClose() {
 } 
 
 function SCPSAPI$ShouldAnimatePanel(jqPopup) { 
-    console.log("check object should be animated"),
-    console.log(JSON.stringify(jqPopup));
+    console.log("check object should be animated - "),
+    console.log(jqPopup);
     return jqPopup.controls.main.hasClass("sub-form") || jqPopup.controls.main.hasClass("sub-view") 
 }
