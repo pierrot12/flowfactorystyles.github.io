@@ -58,7 +58,10 @@ renderFavicon = () => {
 
 
 
-/*Animated Panel Intro*/ 
+/*
+ * Custom pop-up show and hide animations
+ * Powered By Flow Factory
+ */
 
 function SCPSAPI$OverridePopupShow() { 
     var _oldshow = SourceCode.Forms.Widget.PopupWindow.show; 
