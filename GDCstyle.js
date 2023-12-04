@@ -95,12 +95,10 @@ function SCPSAPI$OverridePopupClose() {
         } 
     }; 
 } 
-var pierretest;
 
 function SCPSAPI$ShouldAnimatePanel(jqPopup) { 
     console.log("check object should be animated"),
     console.log(jqPopup);
     console.log(jqPopup.controls.main);
-    pierretest = jqPopup.controls.main;
     return jqPopup.controls.main.hasClass("sub-form") || jqPopup.controls.main.hasClass("sub-view") 
 }
