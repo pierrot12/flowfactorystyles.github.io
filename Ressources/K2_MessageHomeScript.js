@@ -1,6 +1,6 @@
 $(document).ready(() => { 
     const messageElement = $("[name='dl_AllMessage']"); 
-    const messageText = messageElement.SFCLabel('option', 'text'); 
+    const messageText = messageElement.SFCLabel('', 'text'); 
     const allMessages = messageText.split('|').slice(1);
     const messages = [];
     const authors = [];
