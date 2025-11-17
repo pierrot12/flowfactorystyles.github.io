@@ -94,3 +94,7 @@
 .popup.sub-view.popup.sub-view.animatedexit { 
     transition: transform 1s ease-in, opacity 1s linear; 
 }
+.theme-entry .grid table.grid-content-table tr.selected>td,.theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row)>td {
+    background-color: var(--list-item-selected-background-color);
+    color: var(--list-item-selected-text-color)
+}
